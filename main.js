@@ -8,3 +8,13 @@ console.log(month)
 
 let year = date.getFullYear();
 console.log(year)
+
+switch (month) {
+    case 9:
+        console.log("September")
+        break;
+
+    default:
+        console.log("Not a september")
+        break;
+}
