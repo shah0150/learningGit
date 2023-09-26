@@ -10,3 +10,8 @@ function getFormattedDate(date) {
     return date.toLocaleDateString("en-US", options);
   }
 console.log(getFormattedDate(new Date()));
+
+// Create a variable fullName and store your full name as a string. Display the length of your name in the console.
+
+const fullName = "Adesh Nilesh Shah";
+console.log(fullName.length);
