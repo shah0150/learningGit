@@ -1,20 +1,12 @@
-// Date Objects
+function getDayOfWeek() {
+    const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const today = new Date().getDay();
+    return daysOfWeek[today];
+  }
+console.log(getDayOfWeek());
 
-const date = new Date();
-let day = date.getDay();
-console.log("Today: " + day)
-let month = date.getMonth() + 1;
-console.log(month)
-
-let year = date.getFullYear();
-console.log(year)
-
-switch (month) {
-    case 9:
-        console.log("September")
-        break;
-
-    default:
-        console.log("Not a september")
-        break;
-}
+function getFormattedDate(date) {
+    const options = { year: "numeric", month: "long", day: "numeric", weekday: "long" };
+    return date.toLocaleDateString("en-US", options);
+  }
+console.log(getFormattedDate(new Date()));
