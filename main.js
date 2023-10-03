@@ -28,9 +28,9 @@ console.log("Fruits array after adding grape: " + fruitsArray);
 
 // 5. Create an object person with properties for name, age, and city. Print each property to the console.
 const person = {
-  name: "John",
-  age: 30,
-  city: "New York"
+  name: "Adesh",
+  age: 21,
+  city: "Ottawa"
 };
 
 console.log("Name: " + person.name);
@@ -74,10 +74,10 @@ const books = [
   }
 ];
 
-console.log("Book 1: " + JSON.stringify(books[0]));
-console.log("Book 2: " + JSON.stringify(books[1]));
-console.log("Book 3: " + JSON.stringify(books[2]));
-console.log("Book 4: " + JSON.stringify(books[3]));
+console.log("Book 1: " + books[0].title);
+console.log("Book 2: " + books[1].author);
+console.log("Book 3: " + books[2].yearPublished);
+console.log("Book 4: " + books[3].reviews);
 
 // 3. Write a function called calculateArea that calculates and returns the area of a rectangle given its length and width as parameters.
 function calculateArea(length, width) {
@@ -222,7 +222,7 @@ function calculateAge(birthdate) {
   return age;
 }
 
-const birthdate = new Date(1990, 4, 15); // Replace with the person's birthdate
+const birthdate = new Date(1990, 4, 15); // Replace with the your birthdate
 console.log("Age based on birthdate: " + calculateAge(birthdate));
 
 // ------------------------------------------------
