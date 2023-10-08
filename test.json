@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "author": "Anindya Dutta",
+    "email": "Anindya@test.com",
+    "title": "Advantage India: The Story of Indian Tennis"
+  },
+  {
+    "id": 2,
+    "author": "Evan Osnos",
+    "email": "Evan_Osnos@test.com",
+    "title": "Joe Biden: American Dreamer"
+  },
+  {
+    "id": 3,
+    "author": "Shrabani Basu",
+    "email": "Shrabani_Basu@test.com",
+    "title": "The Mystery of the Parsee Lawyer: Arthur Conan Doyle, George Edalji and the case of the foreigner in the English Village"
+  },
+  {
+    "id": 4,
+    "author": "Rajiv Malhotra",
+    "email": "Rajiv_Malhotra@test.com",
+    "title": "Artificial Intelligence and the Future of Power: 5 Battlegrounds"
+  }
+]
